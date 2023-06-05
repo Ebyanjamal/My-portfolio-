@@ -8,3 +8,23 @@
         tracking-widest text-gray-500 ml-2 hover:pointer-events-auto
     }
 }
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+    @layer utilities {
+        @variants responsive {
+          /* Hide scrollbar for Chrome, Safari and Opera */
+          .no-scrollbar::-webkit-scrollbar {
+              display: none;
+          }
+    
+          /* Hide scrollbar for IE, Edge and Firefox */
+          .no-scrollbar {
+              -ms-overflow-style: none;  /* IE and Edge */
+              scrollbar-width: none;  /* Firefox */
+          }
+        }
+      }

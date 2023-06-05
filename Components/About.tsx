@@ -8,8 +8,7 @@ type Props = {}
 export default function About({}: Props) {
   return (
     <div className=' flex flex-col relative h-screen text-center md:text-left md:flex-row
-     h-screen maw-w-7xl px-10 justify-center mx-auto items-center bg-fuchsia-200'>
-
+     h-screen maw-w-7xl px-10 justify-center mx-auto items-center bg-[#fed7aa]'>
 
     {/* <motion.h3 
     className='absolute top-24 uppercase tracking-[10px] text-black text-2xl'> BIO </motion.h3> */}
