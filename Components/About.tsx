@@ -30,7 +30,7 @@ export default function About({}: Props) {
     About me 
     </h4>
     <p className='text-base'>
-Hello, I'm Ebyan, an enthusiastic, kind, and outgoing front-end software engineer based in Denver, CO. Coding is not just a career path I chose; it's also a beloved and cherished hobby of mine.
+Hello I'm Ebyan an enthusiastic kind and outgoing front-end software engineer based in Denver CO. Coding is not just a career path I chose it's also a beloved and cherished hobby of mine. 
 
 I specialize in building intellectual applications from scratch to production, leveraging JavaScript frameworks such as React, Next.js, TypeScript, and more! With a strong foundation in these technologies, I thrive in creating seamless and responsive user experiences.
 
@@ -38,10 +38,9 @@ My passion for design and aesthetics is deeply rooted in my upbringing. Growing 
 
 I am driven by a genuine love for blending creativity with technical skills to craft exceptional user interfaces. From concept to implementation, I strive to deliver elegant solutions that not only meet functional requirements but also leave a lasting impression on users.
 
-If you're seeking a front-end software engineer who is not only skilled but also brings a fresh perspective and a passion for creating visually captivating interfaces, I would be thrilled to contribute my expertise to your team.
+If youre seeking a front-end software engineer who is not only skilled but also brings a fresh perspective and a passion for creating visually captivating interfaces, I would be thrilled to contribute my expertise to your team.
 
-    </p>
-
+    </p> 
 </div>
 
  </div>
