@@ -1,1 +1,1 @@
-
+Explore a collection of my projects showcasing a blend of creativity and technical expertise. From web development to data analysis, join me on a journey of innovation and problem-solving. <img width="1417" alt="Screen Shot 2023-06-27 at 12 34 07 PM" src="https://github.com/Ebyanjamal/My-portfolio-/assets/116683467/597d4a53-13e2-4244-8e2d-12c4bff3750f">
