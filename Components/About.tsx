@@ -8,7 +8,7 @@ type Props = {}
 export default function About({}: Props) {
   return (
     <div className=' flex flex-col relative h-screen text-center md:text-left md:flex-row
-     h-screen maw-w-7xl px-10 justify-center mx-auto items-center bg-[#fed7aa]'>
+     h-screen maw-w-7xl px-10 justify-center mx-auto items-center bg-[#aebfd3]'>
 
     {/* <motion.h3 
     className='absolute top-24 uppercase tracking-[10px] text-black text-2xl'> BIO </motion.h3> */}
@@ -21,15 +21,14 @@ export default function About({}: Props) {
  whileInView={{x:0}}
  viewport={{once:true}}
  className='w-[320px] md:rounded-lg md:h-95 xl:x-[500px] '
- src="https://wallpapercave.com/wp/wp9641787.jpg"
- alt="Picture of the author"
+ src=""
  />
 
-<div className='space-y-10 px-0 md:px-10 ' >
-    <h4 className='text-4xl font-semibold' >
+<div className='space-y-10 px-0 md:px-10 p-4 col-span-3 shadow-xl shadow-white-100 rounded-xl lg:p-4 ml-4' >
+    <h4 className='text-4xl font-semibold font-space text-black' >
     About me 
     </h4>
-    <p className='text-base'>
+    <p className='text-base text-black font-space'>
 Hello I'm Ebyan an enthusiastic kind and outgoing front-end software engineer based in Denver CO. Coding is not just a career path I chose it's also a beloved and cherished hobby of mine. 
 
 I specialize in building intellectual applications from scratch to production, leveraging JavaScript frameworks such as React, Next.js, TypeScript, and more! With a strong foundation in these technologies, I thrive in creating seamless and responsive user experiences.
