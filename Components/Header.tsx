@@ -2,12 +2,13 @@ import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import {motion} from 'framer-motion'
 
+
 type Props = {}
 
 export default function Header({}: Props) {
   return (
 
-    <header className='sticky top-0  p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center' >
+    <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center' >
         <motion.div 
         initial={{
             x:-500,
@@ -33,7 +34,7 @@ export default function Header({}: Props) {
 
 
 <SocialIcon url="https://www.linkedin.com/in/ebyanengineer" 
-            fgColor='tan'
+            fgColor='purple'
             bgColor='transparent'
             />
         </motion.div>

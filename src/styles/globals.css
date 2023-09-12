@@ -7,7 +7,7 @@
 @layer components{
     .mainButton{
         @apply border-[#242424]  uppercase text-xs 
-        tracking-widest text-gray-500 ml-2 hover:pointer-events-auto
+        tracking-widest text-[#aebfd3] ml-2 hover:pointer-events-auto
     }
 }
 
@@ -17,6 +17,7 @@
 .back{
     background-image: url('https://images.unsplash.com/photo-1641391503184-a2131018701b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fDNkJTIwcmVuZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60');
     background-size: cover;
+    
 }
 
 
@@ -34,3 +35,14 @@
           }
         }
       }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item{
+    width: 10vw;
+    height: 10px;
+    border-radius: 8px;
+}

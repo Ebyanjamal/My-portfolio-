@@ -8,7 +8,7 @@ type Props = {}
 export default function About({}: Props) {
   return (
     <div className=' flex flex-col relative h-screen text-center md:text-left md:flex-row
-     h-screen maw-w-7xl px-10 justify-center mx-auto items-center bg-[#aebfd3]'>
+     h-screen maw-w-767px px-10 min-w-768 justify-center mx-auto items-center bg-[#aebfd3]'>
 
     {/* <motion.h3 
     className='absolute top-24 uppercase tracking-[10px] text-black text-2xl'> BIO </motion.h3> */}
@@ -24,7 +24,7 @@ export default function About({}: Props) {
  src=""
  />
 
-<div className='space-y-10 px-0 md:px-10 p-4 col-span-3 shadow-xl shadow-white-100 rounded-xl lg:p-4 ml-4' >
+<div className='space-y-10 px-0 md:px-10 p-4 col-span-3 shadow-xl shadow-white-100 rounded-xl lg:p-4 ml-4 max-w-767px  min-w-768px' >
     <h4 className='text-4xl font-semibold font-space text-black' >
     About me 
     </h4>

@@ -4,7 +4,7 @@ type Props = {}
 
 export default function Contact({}: Props) {
   return (
-    <div className=' h-screen flex relative overflow-hidden flex-col test-lft md:flex-row max-w-full px-10 bg-black justify-evenly mx-auto items-center '>
+    <div className=' bg-[rgb(159,83,140)] h-screen flex relative overflow-hidden flex-col test-lft md:flex-row max-w-full px-10 bg-back justify-evenly mx-auto items-center '>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-grey-500 text-2xl'> Contact </h3>
         <div className='space-y-10'>
             <h4 className='text-4xl font-semibold text-center'>Lets Put These Skills To Work.{" "}
