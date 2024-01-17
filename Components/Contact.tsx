@@ -14,11 +14,11 @@ export default function Contact({}: Props) {
         <div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className=' text-white h-7 w-7 animate-pulse'/>
                 <p className='text-2xl' >+(720)-620-8656</p>
-        </div>
+        </div> 
 
         <div className='flex items-center space-x-5 justify-center'>
                 <EnvelopeIcon className=' text-white h-7 w-7 animate-pulse'/>
-                <p className='text-2xl' >Ebyanjamal6@gmail.com</p>
+                <p className='text-2xl' >ebyanengineer6@gmail.com</p>
          </div>
 
         <div className='flex items center space-x-5 justify-center'>

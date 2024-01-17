@@ -15,7 +15,7 @@ export default function Main({}: Props) {
       "مرحباً",
       "soo dhawoow",
       "ברוך הבא",
-      "To Ebyan's Coding Journey"
+      "To Ebyan's Life Journey"
     ],
     loop: true,
     delaySpeed: 1000
@@ -46,7 +46,7 @@ export default function Main({}: Props) {
       alt="" />
       </motion.div>
       <div className='z-20'>
-        <h2 className='text-xl uppercase pb-2 tracking-[5px] mt-2 text-white font-space font-semibold' >Front End Software Engineer </h2>
+        <h2 className='text-xl uppercase pb-2 tracking-[5px] mt-2 text-white font-space font-semibold' >Software & Design Marketing Engineer </h2>
       <div className='mt- 25 '>
         <Link href="#About"> 
         <motion.button 
@@ -75,6 +75,9 @@ export default function Main({}: Props) {
                 whileTap={{ scale: 0.9 }}
         className=' rounded-full mainButton hover:outline outline-offset-2 outline-1 text-white font-semibold font-space'>Skills</motion.button>
         </Link>
+
+        <h1>
+        </h1>
       </div>
       </div>
     </div>
